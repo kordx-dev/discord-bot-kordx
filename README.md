@@ -11,7 +11,7 @@ Il affiche tous les **salons texte** d’un serveur dans un embed, **triés par 
 - 🔠 Trie les salons **par ordre alphabétique**
 - 📋 Affiche les noms **un par ligne** dans un embed
 - 📊 Affiche le **nombre total** de salons texte
-- 💬 Une seule commande : `!channels`
+- 💬 Une seule commande : **`!channels`**
 
 ---
 
@@ -33,3 +33,27 @@ Il affiche tous les **salons texte** d’un serveur dans un embed, **triés par 
 ```bash
 git clone https://github.com/kordx-dev/discord-bot-kordx.git
 cd discord-bot-kordx
+```
+
+### 2. Installer les dépendances
+`npm install`
+
+---
+
+## 🔐 Configuration du token
+
+- Ouvre le fichier `index.js` et repère cette ligne :
+`const TOKEN = 'TOKEN';`
+- ➡️ Remplace `'TOKEN'` par le token de ton bot Discord, que tu obtiens sur le [Discord Developer Portal](https://discord.com/developers/applications).
+  ⚠️ Attention : ne partage jamais ton token publiquement !
+
+---
+
+## 🚀 Lancer le bot
+
+- Une fois le token configuré et les dépendances installées, lance le bot en exécutant :
+  `node index.js`
+- Tu devrais voir s'afficher dans la console :
+  `Connecté en tant que BOT#0000`
+
+Le bot est alors prêt à l'emploi !
