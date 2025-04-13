@@ -45,6 +45,7 @@ cd discord-bot-kordx
 - Ouvre le fichier `index.js` et repère cette ligne :
 `const TOKEN = 'TOKEN';`
 - ➡️ Remplace `'TOKEN'` par le token de ton bot Discord, que tu obtiens sur le [Discord Developer Portal](https://discord.com/developers/applications).
+  
   ⚠️ Attention : ne partage jamais ton token publiquement !
 
 ---
